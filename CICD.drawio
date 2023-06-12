@@ -1,9 +1,156 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T08:51:43.864Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" version="21.3.8" etag="_1VXi7adW1yTqyiiV-8m" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T10:53:32.246Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="UgrjLFTO_sO7xmpqiKB1" version="21.3.8" type="github">
   <diagram name="Page-1" id="4942dSgOLlQn5LEMoV-9">
-    <mxGraphModel>
+    <mxGraphModel dx="2051" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iqrrrpipv7ULR5whAsaG-1" value="&lt;div&gt;DataServe&lt;/div&gt;&lt;div&gt;Source GITHUB&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-2" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="590" as="sourcePoint" />
+            <mxPoint x="280" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-3" value="Build " style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="589.5" as="sourcePoint" />
+            <mxPoint x="500" y="589.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-6" value="&lt;h1&gt;DataServe Source Control&lt;br&gt;&lt;/h1&gt;&lt;ul style=&quot;line-height: 100%;&quot;&gt;&lt;li&gt;Check IN Source Code (such as Moamalat Plugins) &lt;/li&gt;&lt;li&gt;Commit Changes&lt;/li&gt;&lt;li&gt;Peer Review New Code&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="630" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-7" value="Automated" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="550" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-8" value="Automated" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="550" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-9" value="&lt;h1 align=&quot;center&quot;&gt;Build&lt;br&gt;&lt;/h1&gt;&lt;ul style=&quot;line-height: 110%;&quot;&gt;&lt;li&gt;Run Build(Compile Code) &lt;/li&gt;&lt;li&gt;unit Tests&lt;/li&gt;&lt;li&gt;Style Checker&lt;/li&gt;&lt;li&gt;Code Review&lt;/li&gt;&lt;li&gt;Create Container Images&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="635" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-10" value="Test" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="500" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-11" value="&lt;h1&gt;QA&lt;br&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;Deploy to Test Environment&lt;/li&gt;&lt;li&gt;Run Integration Tests with other system&lt;/li&gt;&lt;li&gt;UI Test&lt;/li&gt;&lt;li&gt;Load Tests &lt;/li&gt;&lt;li&gt;Penetration Tests&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="640" width="190" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-12" value="Production" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="720" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="589.5" as="sourcePoint" />
+            <mxPoint x="720" y="589.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-14" value="&lt;h1 align=&quot;center&quot;&gt;Production &lt;br&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;Deploy to Production Environment&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="640" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-15" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;V1.0&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="460" as="sourcePoint" />
+            <mxPoint x="99.28999999999999" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-20" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Approved Deploy&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="490" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-21" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;&lt;font style=&quot;font-size: 23px;&quot; color=&quot;#cc0000&quot;&gt;Automated Deploy&lt;/font&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="450" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-24" value="&lt;font style=&quot;font-size: 22px;&quot; color=&quot;#ff9933&quot;&gt;Continuous Delivery&lt;/font&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="910" width="730" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-25" value="&lt;font style=&quot;font-size: 20px;&quot; color=&quot;#004080&quot;&gt;Continuous&amp;nbsp; Integration &lt;/font&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="780" width="430" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-26" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot; color=&quot;#80ff00&quot;&gt;Continuous Deployment&lt;/font&gt;&lt;/b&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1000" width="730" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-28" value="Automated" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="550" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-32" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=30;endSize=8.325;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="148.75" as="sourcePoint" />
+            <mxPoint x="320" y="148.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-37" value="DataServe Sprint Planning" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="440" y="104" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-39" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Sprint Backlog&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="90" width="140" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-40" value="Task 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="iqrrrpipv7ULR5whAsaG-39">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-41" value="Task 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="iqrrrpipv7ULR5whAsaG-39">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-42" value="Task 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="iqrrrpipv7ULR5whAsaG-39">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-43" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=5;endSize=11.674999999999999;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="133.75" as="sourcePoint" />
+            <mxPoint x="560" y="133.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-45" value="2 Weeks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-47" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Jenkins Jirs Integration&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout" vertex="1" parent="1">
+          <mxGeometry x="730" y="340" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-53" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=72.5;endSize=7.5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="165" y="140.75" as="sourcePoint" />
+            <mxPoint x="80" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="141" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-55" value="&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;DataServe Product Backlog &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Stories&lt;/font&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="80" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-57" value="address bugs quicker, improve software quality, and reduce the time it takes to validate and release new software updates" style="text;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="50" y="840" width="748" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-58" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;GitHub Jira Integration&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout" vertex="1" parent="1">
+          <mxGeometry x="100" y="200" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-59" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Daily Scrum(Meeting)&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout" vertex="1" parent="1">
+          <mxGeometry x="220" y="290" width="135" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-60" value="Technical Service Manager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="205" y="380" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-62" value="the sprint planning meeting, the daily stand-up meeting, the sprint review meeting" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="200" width="285" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-63" value="Estimation Time Framfor" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="250" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-64" value="Estimate productcost and timeline" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="270" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-65" value="Define High Level product backlog" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="300" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iqrrrpipv7ULR5whAsaG-66" value="Agile Delivery Manager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="370" width="30" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
