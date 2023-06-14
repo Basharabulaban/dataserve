@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T11:22:57.028Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="Kmod0UoccJfHGbfiXH29" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T11:26:28.716Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="OKP41M_eZc2g4Jbev4Tx" version="21.3.8" type="github">
   <diagram name="Page-1" id="97916047-d0de-89f5-080d-49f4d83e522f">
     <mxGraphModel dx="5949.5" dy="2152" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -87,7 +87,7 @@
           <mxGeometry x="-1320" y="600" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CrXu2PX2MfrCH1NT0C0y-83" value="Accounts Managers" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=26;" parent="1" vertex="1">
-          <mxGeometry x="-1550" y="600" width="200" height="60" as="geometry" />
+          <mxGeometry x="-1575" y="600" width="225" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CrXu2PX2MfrCH1NT0C0y-88" value="Finanse" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=39;" parent="1" vertex="1">
           <mxGeometry x="-1753" y="390" width="200" height="60" as="geometry" />
